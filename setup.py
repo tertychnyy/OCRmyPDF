@@ -228,7 +228,7 @@ setup(
         'ocrmypdf/lib/compile_leptonica.py:ffibuilder'
     ],
     install_requires=[
-        'ruffus==2.6.3',        # pinned - ocrmypdf implements a 2.6.3 workaround
+        'ruffus==2.8.3',        # pinned - ocrmypdf implements a 2.6.3 workaround
         'Pillow>=4.0.0',        # Pillow < 4 has BytesIO/TIFF bug w/img2pdf 0.2.3
         'reportlab>=3.3.0',     # oldest released version with sane image handling
         'PyPDF2>=1.26',         # pure Python, so track HEAD closely
